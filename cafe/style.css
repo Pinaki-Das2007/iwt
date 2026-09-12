@@ -39,6 +39,17 @@ header {
     
 }
 
+#navbar a {
+    color: #F5EBDD;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar a:hover {
+    color: #D9A15B;
+    border-bottom: 2px solid #B87941;
+}
+
 #footer{
     background-color : #2B1D16;
     color : #F5EBDD;
