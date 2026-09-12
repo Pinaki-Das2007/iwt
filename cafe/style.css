@@ -38,3 +38,17 @@ header {
     font-size: 30px;
     
 }
+
+#footer{
+    background-color : #2B1D16;
+    color : #F5EBDD;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+
+}
