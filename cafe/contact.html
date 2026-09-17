@@ -1,12 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+
+    <title>Contact Us - The Old-town Cafe</title>
     <link rel="stylesheet" href="style.css">
+
+
+    
 </head>
+
+
 <body>
-    <h1>Contact</h1>
+
+
+    <!-- Contact Header -->
+
+    <header id="contact-header">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            We'd love to hear from you and welcome you to
+            The Old-town Cafe.
+        </p>
+
+    </header>
+
+
+
+    <!-- Contact Section -->
+
+    <section id="contact-section">
+
+        <div class="contact-container">
+
+
+            <!-- Contact Information -->
+
+            <div class="contact-info">
+
+                <h2>Visit Us</h2>
+
+
+                <div class="info-box">
+
+                    <h3>📍 Address</h3>
+
+                    <p>
+                        Old Town, Bhubaneswar,<br>
+                        Odisha, India
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>📞 Phone</h3>
+
+                    <p>
+                        +91 98765 43210
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>✉️ Email</h3>
+
+                    <p>
+                        hello@oldtowncafe.com
+                    </p>
+<!--  -->
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>🕐 Opening Hours</h3>
+
+                    <p>
+                        Monday - Friday: 9:00 AM - 10:00 PM
+                    </p>
+
+                    <p>
+                        Saturday - Sunday: 8:00 AM - 11:00 PM
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Reservation Form -->
+
+            <div class="contact-form">
+
+                <h2>Reserve a Table</h2>
+
+
+                <form>
+
+
+                    <!-- Name & Phone -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter phone number"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Email -->
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+
+
+                    <!-- Number of Guests -->
+
+                    <label for="guests">
+                        Number of Guests
+                    </label>
+
+                    <select id="guests" name="guests">
+
+                        <option value="">
+                            Select number of guests
+                        </option>
+
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 Guests</option>
+                        <option value="7">7 Guests</option>
+                        <option value="8">8 Guests</option>
+
+                    </select>
+
+
+
+                    <!-- Date -->
+
+                    <label for="date">
+                        Reservation Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required>
+
+
+
+                    <!-- Message -->
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Any special requests or message...">
+                    </textarea>
+
+
+
+                    <!-- Submit -->
+
+                    <button
+                        type="submit"
+                        class="submit-btn">
+
+                        Reserve My Table
+
+                    </button>
+
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Bottom Section -->
+
+        <div id="visit">
+
+            <h2>Come, Sit & Stay Awhile ☕</h2>
+
+            <p>
+                Whether it's a morning coffee, a family meal,
+                an evening with friends, or simply some quiet time,
+                The Old-town Cafe is always ready to welcome you.
+            </p>
+
+        </div>
+
+
+    </section>
+
+
 </body>
+
 </html>
